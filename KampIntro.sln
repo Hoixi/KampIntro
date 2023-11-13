@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metotlar", "Metotlar\Metotlar.csproj", "{6E439A29-FA1A-49DF-B4AA-3F73A9A29EFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matematik", "Matematik\Matematik.csproj", "{5D3336B2-41A1-4697-8088-87F70A7A206C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DegerVeReferansTipler", "DegerVeReferansTipler\DegerVeReferansTipler.csproj", "{5668F464-8AE1-4B1D-94DA-C37365640232}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E439A29-FA1A-49DF-B4AA-3F73A9A29EFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E439A29-FA1A-49DF-B4AA-3F73A9A29EFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E439A29-FA1A-49DF-B4AA-3F73A9A29EFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E439A29-FA1A-49DF-B4AA-3F73A9A29EFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D3336B2-41A1-4697-8088-87F70A7A206C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D3336B2-41A1-4697-8088-87F70A7A206C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D3336B2-41A1-4697-8088-87F70A7A206C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D3336B2-41A1-4697-8088-87F70A7A206C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5668F464-8AE1-4B1D-94DA-C37365640232}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5668F464-8AE1-4B1D-94DA-C37365640232}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5668F464-8AE1-4B1D-94DA-C37365640232}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5668F464-8AE1-4B1D-94DA-C37365640232}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
